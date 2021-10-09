@@ -2,7 +2,7 @@
 Converts Citect trend data to xlsx or csv.
 
 ## Usage
-'''
+
 usage: trendconvert [-h] [-s] [-o TYPE] [-e] [-start DATE] [-stop DATE] [-f NUM] [-d] [-p NUM] file
 
 positional arguments:
@@ -18,7 +18,7 @@ optional arguments:
   -f NUM       Select file to export.
   -d           Do not discard invalid values from samples.
   -p NUM       Number of decimals shown in values. (Default: 1)
-'''
+
 
 Works with Python 3.9.1
 Might work with alot of other versions too.
