@@ -323,6 +323,12 @@ def main():
         examineDataFiles(m)
 
     # If -start or -stop set, make time objects
+    if args.start and not args.stop:
+        print("Both -start and -stop arguments should be used together.")
+        sys.exit(2)
+    if args.stop and not args.start:
+        print("Both -start and -stop arguments should be used together.")
+        sys.exit(2)
     try:
         if args.start:
             startTime = datetime.strptime(args.start, "%Y-%m-%d")
