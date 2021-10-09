@@ -20,7 +20,10 @@ optional arguments:
   -p NUM       Number of decimals shown in values. (Default: 1)
 ```
 
+Supports 8 byte and 2 byte trend formats.
+
 Works with Python 3.9.1
 Might work with alot of other versions too.
 
 Use at your own risk.
+
